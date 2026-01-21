@@ -1,22 +1,22 @@
 ---
 title: "GIS mapping"
-author: "Rmily Jordan"
+author: "Emily Jordan"
 date: "`r Sys.Date()`"
 format:
   html:
     theme:
-      light: flatly
-      dark: darkly
+      light: flatly # website theme
+      dark: darkly  # can toggle between two
 editor: visual
 ---
 
 ```{=html}
 <style>
-.quarto-title-block { text-align: center; }
+.quarto-title-block { text-align: center; } 
 </style>
 ```
 
-::: panel-tabset
+::: panel-tabset #creates invidual tabs
 ## Introduction
 
 ...
