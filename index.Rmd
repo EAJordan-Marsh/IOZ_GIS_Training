@@ -5,7 +5,7 @@ date: "`r Sys.Date()`" #updates date to system date
 output: html_document
 ---
 
-```{r setup, include=FALSE} 
+```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
 # Load libraries
@@ -24,7 +24,7 @@ target_crs <- 4326
 
 ## My first online map
 
-This map below shows the recent earthquakes around the world and the active fault lines. 
+This map below shows the recent earthquakes around the world and the active fault lines.
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 
